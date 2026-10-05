@@ -87,7 +87,7 @@ TARGET_DEFAULT_LOCALE="en_US.UTF-8"
 DEBOOTSTRAP_SCRIPT_FILE_PATH=""
 
 
-TARGET_LINUXMINT_CODENAME="alfa"
+TARGET_LINUXMINT_CODENAME="adrien"
 TARGET_LINUXMINT_MIRROR="http://packages.linuxmint.com"
 
 
@@ -1046,8 +1046,8 @@ __EOF__
 
 ##
 ## * https://github.com/clefebvre/docker-images
-## * https://github.com/clefebvre/docker-images/blob/master/mint23-amd64.Dockerfile
-## * https://github.com/clefebvre/docker-images/tree/master/mint23/etc/apt
+## * https://github.com/clefebvre/docker-images/blob/master/mint27-amd64.Dockerfile
+## * https://github.com/clefebvre/docker-images/tree/master/mint27/etc/apt
 ##
 
 function core_apt_sources_config_for_linuxmint () {
